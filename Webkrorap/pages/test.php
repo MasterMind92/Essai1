@@ -1,53 +1,59 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Title Page</title>
+<?php 
+try{
+	$connexion= new PDO('mysql:host=localhost;dbname=L2','root','');
+}
+catch ( Exception $e)
+{
+	die( ' Erreur : ' . $e->getMessage( ) ) ;
+}
 
-		<!-- Bootstrap CSS -->
+$answer= $connexion-> query('SELECT * FROM news');
+
+ ?>
+
+<!DOCTYPE html>
+<html>
+	<head>
 		<link href="../public/css/bootstrap.min.css" rel="stylesheet">
 		<link href="../public/css/style.css" rel="stylesheet" >
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		<meta charset="utf-8">
+		<title>Edition des News</title>
+		<style type="text/css"></style>
 	</head>
 	<body>
-		<div class="row Image">
-			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<img height="200" src="../public/img/Vrai_go11.jpg">	
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<img height="200" src="../public/img/Vrai_go.jpg">
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<img height="200" src="../public/img/Vrai_go10.png">	
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<img height="200" src="../public/img/Vrai_go6.jpg">
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<img height="200" src="../public/img/Vrai_go11.jpg">
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<img height="200" src="../public/img/Vrai_go6.jpg">
+		<?php 
+			while($data= $answer->fetch()){
+		 ?>
+		<div class="row">
+			<div class=" col-lg-offset-1 col-lg-10">
+				<div class="panel panel-default News">
+					<div class="panel-heading">
+						<div class="panel-title">
+							
+						</div>
+					</div>
+					<div class="panel-body">
+					   <div class="media">
+						   	<a class="pull-left" href="#">
+						   		<img width="200" height="200" class="media-object" src=<?php echo $data['Media_news'] ;?> alt="Image">
+						   	</a>
+						   	<div class="media-body">
+						   		<h4 class="media-heading"><?php echo $data['Titre_news'] ;?></h4>
+						   		<p>
+						   			<?php echo $data['Commentaire_news'] ;?>
+						   		</p>
+						   	</div>
+					   </div>
+					</div>
+				</div>
 			</div>
 		</div>
-		
-		
+		<?php 
+		}
 
-		<!-- jQuery -->
-		<script src="../public/js/JQuery.min.js"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="public/js/bootstrap.min.js"></script>
+		$answer->closeCursor();
 
-		<script>
-			
-		</script>
+		 ?>
+		
 	</body>
 </html>

@@ -12,36 +12,37 @@
 
 		<div class="container">
 			<?php include ('../inclusions/Slider.php');?>		
-
-			<div  id="Synopsis"class="col-lg-12">
-				<div class="panel panel-default">
-				  <div class="panel-heading"><center><h1>L2-Connection</h1></center></div>
-					  <div class="panel-body">
-					  	<blockquote>
-					  		Cr&eacute;&eacute; en 2010, la L2C est un collectif de rap compos&eacute; de 5 MC&apos;s, Bami Bassi,
-							B.Brown, Krash, Megaman TLM, et Meles, ainsi que 2 MC’s/Beatmakers,
-							Statik et Tim Purple et un DJ, DJ Sweezy.
-					  	</blockquote>
-					    
-						La diversité de ses membres et de ses influences permet à la L2C d'explorer
-						de nombreux univers, et de proposer à son public des projets  éclectiques,
-						flirtant avec la musique cubaine sur le titre “señorita“, se rapprochant de la
-						deep house sur “Sippin'“ ou s'amusant sur des sonorités plus actuelles sur
-						“Come on“.
-						La L2C compte à ce jour 3 projets : «Rap&eacute;ritif», sorti en 2011, « L2.0 »en
-						2012 et « Sur mesure »sorti début 2014. Ce dernier projet de 8 titres est
-						le premier EP composé enti&egrave;rement de face A, produites par Statik et Tim
-						Purple.
-						Outre l'activité du collectif, les membres de la L2C suivent &eacute;galement des
-						parcours solo. Bami Bassi a sorti  « Mon quotidien » en 2012,  « Sur la
-						route de Robert Neville »en 2013 et « O.F.H. »en 2014. Krash a sorti son
-						projet « Black Moon »  en Novembre 2013. Enfin Statik a sorti son EP  «
-						Alie.n.ation  » début  2014,  projet  qu'il  a  &eacute;crit,  compos&eacute;  et  enregistr&eacute;
-						enti&egrave;rement en anglais.
-					  </div>
-				</div>
-			</div> 
 		</div>
+	
+		<div  id="Synopsis"class="col-lg-offset-1 col-lg-10">
+			<div class="list-group">
+			  <div class="list-group-item"><center><h1>L2-Connection</h1></center></div>
+				  <div class="list-group-item">
+				  	<blockquote>
+				  		Cr&eacute;&eacute; en 2010, la L2C est un collectif de rap compos&eacute; de 5 MC&apos;s, Bami Bassi,
+						B.Brown, Krash, Megaman TLM, et Meles, ainsi que 2 MC’s/Beatmakers,
+						Statik et Tim Purple et un DJ, DJ Sweezy.
+				  	</blockquote>
+				    
+					La diversité de ses membres et de ses influences permet à la L2C d'explorer
+					de nombreux univers, et de proposer à son public des projets  éclectiques,
+					flirtant avec la musique cubaine sur le titre “señorita“, se rapprochant de la
+					deep house sur “Sippin'“ ou s'amusant sur des sonorités plus actuelles sur
+					“Come on“.
+					La L2C compte à ce jour 3 projets : «Rap&eacute;ritif», sorti en 2011, « L2.0 »en
+					2012 et « Sur mesure »sorti début 2014. Ce dernier projet de 8 titres est
+					le premier EP composé enti&egrave;rement de face A, produites par Statik et Tim
+					Purple.
+					Outre l'activité du collectif, les membres de la L2C suivent &eacute;galement des
+					parcours solo. Bami Bassi a sorti  « Mon quotidien » en 2012,  « Sur la
+					route de Robert Neville »en 2013 et « O.F.H. »en 2014. Krash a sorti son
+					projet « Black Moon »  en Novembre 2013. Enfin Statik a sorti son EP  «
+					Alie.n.ation  » début  2014,  projet  qu'il  a  &eacute;crit,  compos&eacute;  et  enregistr&eacute;
+					enti&egrave;rement en anglais.
+				  </div>
+			</div>
+		</div> 
+	
 			<div class="row Persos">
 				<div class=" col-md-offset-1 col-md-10">
 					<div class="col-sm-6 col-md-4">

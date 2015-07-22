@@ -17,50 +17,44 @@
 		<div class="col-md-offset-1 col-md-10">
 			
 			<?php include ("inclusions/Slider.php");?>
-			
 		</div>
+		<div style="line-height:50px;" class="col-lg-12">
+			&nbsp;
+		</div>	
 			
 		<div class="haut-2 container">
 			<div class="row Preview">
-				<div class="col-md-4 hover-news">
-					<a href="#" >
-						<ul class="list-group">
-							<li class="list-group-item">L2-Connection</li>
-							<li class="list-group-item">Titre du son</li>
-							<li class="list-group-item">Item 3</li>
-							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
-						</ul>
-					</a>
+				<div class="col-md-4 hover-news">	
+					<ul class="list-group">
+						<li class="list-group-item">L2-Connection</li>
+						<li class="list-group-item">Titre du son</li>
+						<li class="list-group-item">Item 3</li>
+						<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+					</ul>
 				</div>
-				<div class="col-md-4 hover-news">
-					<a href="#" >
-						<ul class="list-group">
-							<li class="list-group-item">L2-Connection</li>
-							<li class="list-group-item">Titre du son</li>
-							<li class="list-group-item">Item 3</li>
-							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
-						</ul>
-					</a>
+				<div class="col-md-4 hover-news">	
+					<ul class="list-group">
+						<li class="list-group-item">L2-Connection</li>
+						<li class="list-group-item">Titre du son</li>
+						<li class="list-group-item">Item 3</li>
+						<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+					</ul>
 				</div>
-				<div class="col-md-4 hover-news">
-					<a href="#" >
-						<ul class="list-group">
-							<li class="list-group-item">L2-Connection</li>
-							<li class="list-group-item">Titre du son</li>
-							<li class="list-group-item">Item 3</li>
-							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
-						</ul>
-					</a>
+				<div class="col-md-4 hover-news">	
+					<ul class="list-group">
+						<li class="list-group-item">L2-Connection</li>
+						<li class="list-group-item">Titre du son</li>
+						<li class="list-group-item">Item 3</li>
+						<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+					</ul>
 				</div>
-				<div class="col-md-4 hover-news">
-					<a href="#" >
-						<ul class="list-group">
-							<li class="list-group-item">L2-Connection</li>
-							<li class="list-group-item">Titre du son</li>
-							<li class="list-group-item">Item 3</li>
-							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
-						</ul>
-					</a>
+				<div class="col-md-4 hover-news">	
+					<ul class="list-group">
+						<li class="list-group-item">L2-Connection</li>
+						<li class="list-group-item">Titre du son</li>
+						<li class="list-group-item">Item 3</li>
+						<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+					</ul>
 				</div>
 			</div>
 		</div>

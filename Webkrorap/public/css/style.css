@@ -151,6 +151,7 @@ body{
 	font-size: 1.2em;
 	font-weight: bold;
 	font-family: "Arial";
+	border: none;
 }
 
 #Synopsis > h4{
@@ -180,8 +181,8 @@ body{
 	padding:5px;
 	height: 30px;
 	background-color: black;
-	color: red;
-	font-family: "Arial black";
+	color: rgb(207, 0, 15);
+	font-family: "FuturaLight";
 }
 
 .Preview div ul li:nth-child(2){

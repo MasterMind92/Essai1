@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-static-top">
 	<div class="container">
 		<a class="navbar-brand" href="">Nom Groupe</a>
 		<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navHeaderCollapse">
