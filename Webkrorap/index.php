@@ -14,41 +14,53 @@
 
 		<?php include("inclusions/Menu.php");?>
 		<!--- CORPS DE LA PAGE -->
-		<?php include ("inclusions/Slider.php");?>	
+		<div class="col-md-offset-1 col-md-10">
+			
+			<?php include ("inclusions/Slider.php");?>
+			
+		</div>
+			
 		<div class="haut-2 container">
-			<div class="row">
+			<div class="row Preview">
 				<div class="col-md-4 hover-news">
-					<div class="list-group">
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">BRAND NEW SONG</h4>
-							<div class="separator"></div>
-					<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae provident nam et consectetur molestiae aspernatur ratione placeat dignissimos odio, cum, non eveniet adipisci voluptas doloribus fugiat, maiores odit sint.</p>
-						</a>
-					</div>
+					<a href="#" >
+						<ul class="list-group">
+							<li class="list-group-item">L2-Connection</li>
+							<li class="list-group-item">Titre du son</li>
+							<li class="list-group-item">Item 3</li>
+							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+						</ul>
+					</a>
 				</div>
 				<div class="col-md-4 hover-news">
-					<div class="list-group">
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">BRAND NEW SONG</h4>
-					<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae provident nam et consectetur molestiae aspernatur ratione placeat dignissimos odio, cum, non eveniet adipisci voluptas doloribus fugiat, maiores odit sint.</p>
-						</a>
-					</div>
+					<a href="#" >
+						<ul class="list-group">
+							<li class="list-group-item">L2-Connection</li>
+							<li class="list-group-item">Titre du son</li>
+							<li class="list-group-item">Item 3</li>
+							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+						</ul>
+					</a>
 				</div>
 				<div class="col-md-4 hover-news">
-					<div class="list-group">
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">BRAND NEW SONG</h4>
-					<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae provident nam et consectetur molestiae aspernatur ratione placeat dignissimos odio, cum, non eveniet adipisci voluptas doloribus fugiat, maiores odit sint.</p>
-						</a>
-					</div>
+					<a href="#" >
+						<ul class="list-group">
+							<li class="list-group-item">L2-Connection</li>
+							<li class="list-group-item">Titre du son</li>
+							<li class="list-group-item">Item 3</li>
+							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+						</ul>
+					</a>
 				</div>
 				<div class="col-md-4 hover-news">
-					<div class="list-group">
-						<a href="#" class="list-group-item">
-							<h4 class="list-group-item-heading">BRAND NEW SONG</h4>
-					<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae provident nam et consectetur molestiae aspernatur ratione placeat dignissimos odio, cum, non eveniet adipisci voluptas doloribus fugiat, maiores odit sint.</p>
-						</a>
-					</div>
+					<a href="#" >
+						<ul class="list-group">
+							<li class="list-group-item">L2-Connection</li>
+							<li class="list-group-item">Titre du son</li>
+							<li class="list-group-item">Item 3</li>
+							<li class="list-group-item"><img width="100%" height="100%" src=""></li>
+						</ul>
+					</a>
 				</div>
 			</div>
 		</div>

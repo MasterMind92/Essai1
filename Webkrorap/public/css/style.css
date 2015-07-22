@@ -82,9 +82,6 @@ body{
 	width: 100%;
 }
 /*---DIMENSIONS DE LA STRUCTURE DES VIGNETTES----*/
-div .jumbotron{
-	background-color: rgba(189, 195, 199, 1.0);
-}
 
 .list-group a
 {
@@ -118,7 +115,7 @@ div .jumbotron{
 	background-color: #efefef;
 	height: 2px;
 	margin: 8px;
-	width: 70%;
+	width: 100%;
 }
 /*----------------------------------
 	= PIED DE PAGE 
@@ -144,4 +141,92 @@ div .jumbotron{
 	height: 190px;
 	width: 32.6%;
 	display: inline-block;
+}
+
+/*----------------------------------
+	= PAGE DE PRESENTATION 
+------------------------------------*/
+
+#Synopsis{
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Arial";
+}
+
+#Synopsis > h4{
+	background-color: ;
+}
+#Synopsis .panel-heading{
+	background-color: black;
+	color: white;
+}
+
+.Persos{
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Arial";	
+}
+
+.Persos .panel-heading, .Persos .panel-footer{
+	background-color: black;
+	color: white;	
+}
+
+/*----------------------------------
+	= PAGE D'ACCUEIL	
+------------------------------------*/
+
+.Preview div ul li:first-child{
+	padding:5px;
+	height: 30px;
+	background-color: black;
+	color: red;
+	font-family: "Arial black";
+}
+
+.Preview div ul li:nth-child(2){
+	padding:5px;
+	height: 100px;
+	font-size: 2.5em;
+}
+
+.Preview div ul li:nth-child(3){
+	padding:20px;
+	height: 70px;
+}
+
+.Preview div ul li:nth-child(4){
+	padding:5px;
+	height: 400px;
+	font-size: 2.5em;
+}
+
+.Preview div ul{
+	-webkit-transition:box-shadow 0.5s ease-in-out;
+	-moz-transition:box-shadow 0.5s ease-in-out;
+}
+
+.Preview div ul:hover{
+	box-shadow: 5px 5px 5px rgb(130,130,130);
+}
+
+	
+/*----------------------------------
+	= PAGE D'ACCUEIL	
+------------------------------------*/
+
+.News .panel-heading{
+	background-color: black;
+	color: white;
+}
+
+/*----------------------------------
+	= PAGE DE TEST	
+------------------------------------*/
+.row .col-lg-2{
+	height: 250px;
+}
+.row img{
+	width: 100%;
+	height: 100%;
 }
