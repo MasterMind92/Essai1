@@ -10,35 +10,35 @@
 	<body>
 		<?php include("../inclusions/Menu.php");?>
 
-		<div class="container">
-			<?php include ('../inclusions/Slider.php');?>		
+		<div class="col-md-offset-1 col-md-10">			
+			<?php include ("../inclusions/Slider.php");?>
 		</div>
 	
-		<div  id="Synopsis"class="col-lg-offset-1 col-lg-10">
+		<div id="Synopsis" class="col-lg-offset-1 col-lg-10">
 			<div class="list-group">
 			  <div class="list-group-item"><center><h1>L2-Connection</h1></center></div>
 				  <div class="list-group-item">
 				  	<blockquote>
-				  		Cr&eacute;&eacute; en 2010, la L2C est un collectif de rap compos&eacute; de 5 MC&apos;s, Bami Bassi,
+				  		Créé en 2010, la L2C est un collectif de rap composé de 5 MC's, Bami Bassi,
 						B.Brown, Krash, Megaman TLM, et Meles, ainsi que 2 MC’s/Beatmakers,
 						Statik et Tim Purple et un DJ, DJ Sweezy.
 				  	</blockquote>
-				    
-					La diversité de ses membres et de ses influences permet à la L2C d'explorer
+				  	<p>
+				  		La diversité de ses membres et de ses influences permet à la L2C d'explorer
 					de nombreux univers, et de proposer à son public des projets  éclectiques,
 					flirtant avec la musique cubaine sur le titre “señorita“, se rapprochant de la
 					deep house sur “Sippin'“ ou s'amusant sur des sonorités plus actuelles sur
-					“Come on“.
-					La L2C compte à ce jour 3 projets : «Rap&eacute;ritif», sorti en 2011, « L2.0 »en
+					“Come on“.<br />
+					La L2C compte à ce jour 3 projets : «Rapéritif», sorti en 2011, « L2.0 »en
 					2012 et « Sur mesure »sorti début 2014. Ce dernier projet de 8 titres est
-					le premier EP composé enti&egrave;rement de face A, produites par Statik et Tim
-					Purple.
-					Outre l'activité du collectif, les membres de la L2C suivent &eacute;galement des
-					parcours solo. Bami Bassi a sorti  « Mon quotidien » en 2012,  « Sur la
+					le premier EP composé entièrement de face A, produites par Statik et Tim
+					Purple.<br />
+					Outre l'activité du collectif, les membres de la L2C suivent également des
+					parcours solo. Bami Bassi a sorti  « Mon quotidien » en 2012, « Sur la
 					route de Robert Neville »en 2013 et « O.F.H. »en 2014. Krash a sorti son
-					projet « Black Moon »  en Novembre 2013. Enfin Statik a sorti son EP  «
-					Alie.n.ation  » début  2014,  projet  qu'il  a  &eacute;crit,  compos&eacute;  et  enregistr&eacute;
-					enti&egrave;rement en anglais.
+					projet « Black Moon »  en Novembre 2013. Enfin Statik a sorti son EP «
+					Alie.n.ation » début  2014,  projet  qu'il a écrit, composé et enregistré entièrement en anglais.
+				  	</p>
 				  </div>
 			</div>
 		</div> 
@@ -61,10 +61,15 @@
 							</div>
 							
 							<div class="panel-footer">
-								Rôle : MC, leader du groupe<br/>
-								Influences : 50 Cent, Disiz, Tito Prince …<br/> 
-								Facebook:<a href="https://www.facebook.com/pages/BamiBassi/115471591899132">https://www.facebook.com/<br/>pages/BamiBassi/115471591899132</a><br/>
-								Soundcloud: <a href="https://soundcloud.com/bami-bassi">https://soundcloud.com/bami-bassi</a><br/>
+								<p>
+									Rôle : MC, leader du groupe<br/>
+									Influences : 50 Cent, Disiz, Tito Prince …
+								</p> 
+								<p><a class="btn btn-primary" href="https://www.facebook.com/pages/BamiBassi/115471591899132">
+									<i class="fa fa-facebook-official fa-2x pull-left"></i> Bami Bassi</a>
+									<a class="btn btn-custom" href="https://soundcloud.com/bami-bassi">
+									<i class="fa fa-soundcloud fa-2x pull-left"></i> Bami Bassi</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -84,9 +89,14 @@
 							</div>
 							
 							<div class="panel-footer">
-								Rôle :MC
-								Influences: Kery James, IAM, Eminem <br/>
-								Facebook : <a href="https://www.facebook.com/KrashL2C">https://www.facebook.com/KrashL2C</a> 
+								<p>
+									Rôle : MC<br/>
+									Influences : Kery James, IAM, Eminem
+								</p>
+								<p>
+									<a class="btn btn-primary" href="https://www.facebook.com/KrashL2C">
+									<i class="fa fa-facebook-official fa-2x pull-left"></i> KRASH</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -105,9 +115,14 @@
 							</div>
 							
 							<div class="panel-footer">
-								Rôle : MC<br/>
-								Influences: The Weekend, Drake, Ace Hood … <br/>
-								Facebook: <a href="https://www.facebook.com/17breezy">https://www.facebook.com/17breezy</a> 
+								<p>
+									Rôle : MC<br/>
+									Influences : The Weekend, Drake, Ace Hood …
+								</p>
+								<p>
+									<a class="btn btn-primary" href="https://www.facebook.com/17breezy">
+									<i class="fa fa-facebook-official fa-2x pull-left"></i> B.BROWN</a>
+								</p>
 							</div>
 						</div>
 						</div>
@@ -130,9 +145,14 @@
 							</div>
 							
 							<div class="panel-footer">
-								Rôle : MC, chanteur<br/>
-								Influences :  Notorious BIG, Waka Flocka Flame … <br/> 
-								Facebook:<a href="https://www.facebook.com/pages/Megamantlm/350662855040452">https://www.facebook.com/<br/>pages/Megamantlm/350662855040452</a>
+								<p>
+									Rôle : MC, chanteur<br/>
+									Influences :  Notorious BIG, Waka Flocka Flame …
+								</p>
+								<p>
+									<a class="btn btn-primary" href="https://www.facebook.com/pages/Megamantlm/350662855040452">
+									<i class="fa fa-facebook-official fa-2x pull-left"></i> Megaman TLM</a>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -149,8 +169,8 @@
 								<img src="../public/img/Meles.png" height="410" class="thumbnail col-lg-12">
 							</div>
 							<div class="panel-footer">
-								Rôle :MC
-								Influences:  Nakk, B.o.B, Youssoupha …   
+								Rôle : MC
+								Influences : Nakk, B.o.B, Youssoupha …   
 							</div>
 						</div>
 					</div>
@@ -158,7 +178,7 @@
 					<div class="panel panel-info">
 						<div class="panel-heading">
 							<div class="panel-title">
-								<center><h4>B.BROWN</h4></center>
+								<center><h4>GMB STATIC</h4></center>
 
 								<center>“ J’suis le genre de pélo qui commence un couplet en français et qui le finit en anglais…“<br/></center>
 								<center><span>[Statik – Pose ton 16]</span></center>
@@ -171,10 +191,15 @@
 						</div>
 						
 						<div class="panel-footer">
-							Rôle : MC, beatmaker<br/>
-							Influences: Lil’ Wayne, Lloyd Banks, Jadakiss … <br/>
-							Facebook: <a href=" https://www.facebook.com/pages/GMBStatik/427248844036536"> https://www.facebook.com/<br/>pages/GMBStatik/427248844036536</a><br/>
-							Soundcloud    : <a href="https://soundcloud.com/gmb_statik">https://soundcloud.com/gmb_statik</a>
+							<p>
+								Rôle : MC, beatmaker<br/>
+								Influences : Lil’ Wayne, Lloyd Banks, Jadakiss …
+							</p> 
+							<p><a class="btn btn-primary" href="https://www.facebook.com/pages/GMBStatik/427248844036536">
+								<i class="fa fa-facebook-official fa-2x pull-left"></i> Gmb Static</a>
+								<a class="btn btn-custom" href="https://soundcloud.com/gmb_statik">
+								<i class="fa fa-soundcloud fa-2x pull-left"></i> Gmb Static</a>
+							</p>
 						</div>
 						</div>
 					</div>

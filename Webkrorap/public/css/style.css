@@ -149,8 +149,6 @@ body{
 
 #Synopsis{
 	font-size: 1.2em;
-	font-weight: bold;
-	font-family: "Arial";
 	border: none;
 }
 
@@ -163,11 +161,25 @@ body{
 }
 
 .Persos{
-	font-size: 1.2em;
-	font-weight: bold;
+	font-size: 100%;
 	font-family: "Arial";	
 }
-
+.btn-custom {
+  background-color: hsl(17, 100%, 42%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6c32", endColorstr="#d63c00");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ff6c32), to(#d63c00));
+  background-image: -moz-linear-gradient(top, #ff6c32, #d63c00);
+  background-image: -ms-linear-gradient(top, #ff6c32, #d63c00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff6c32), color-stop(100%, #d63c00));
+  background-image: -webkit-linear-gradient(top, #ff6c32, #d63c00);
+  background-image: -o-linear-gradient(top, #ff6c32, #d63c00);
+  background-image: linear-gradient(#ff6c32, #d63c00);
+  border-color: #d63c00 #d63c00 hsl(17, 100%, 37.5%);
+  color: #fff !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.29);
+  -webkit-font-smoothing: antialiased;
+}
 .Persos .panel-heading, .Persos .panel-footer{
 	background-color: black;
 	color: white;	
