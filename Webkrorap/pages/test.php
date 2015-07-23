@@ -35,7 +35,7 @@ $answer= $connexion-> query('SELECT * FROM news');
 					<div class="panel-body">
 					   <div class="media">
 						   	<a class="pull-left" href="#">
-						   		<img width="200" height="200" class="media-object" src=<?php echo $data['Media_news'] ;?> alt="Image">
+						   		<img width="200" height="200" class="media-object" src="<?php echo $data['Media_news'] ;?>" alt="Image">
 						   	</a>
 						   	<div class="media-body">
 						   		<h4 class="media-heading"><?php echo $data['Titre_news'] ;?></h4>

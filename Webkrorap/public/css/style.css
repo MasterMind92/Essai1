@@ -159,7 +159,13 @@ body{
 	background-color: black;
 	color: white;
 }
-
+.panel-nom{
+	text-align: center;
+}
+.image-same {
+	height: 350px !important;
+	width: 320px !important;
+}
 .Persos{
 	font-size: 100%;
 	font-family: "Arial";	

@@ -1,4 +1,3 @@
-	<div class="col-md-12">
 		<div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 			<ol class="carousel-indicators">
 				<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -41,4 +40,3 @@
 				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			</a>
 		</div>
-	</div>

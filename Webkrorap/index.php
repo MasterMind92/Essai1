@@ -14,13 +14,9 @@
 
 		<?php include("inclusions/Menu.php");?>
 		<!--- CORPS DE LA PAGE -->
-		<div class="col-md-offset-1 col-md-10">
-			
+		<div class="container">
 			<?php include ("inclusions/Slider.php");?>
 		</div>
-		<div style="line-height:50px;" class="col-lg-12">
-			&nbsp;
-		</div>	
 			
 		<div class="haut-2 container">
 			<div class="row Preview">
