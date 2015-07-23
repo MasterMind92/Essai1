@@ -8,15 +8,17 @@
 		<title>Presentation</title>
 	</head>
 	<body>
-		<?php include("../inclusions/Menu.php");?>
+		<?php include("../inclusions/Menu.php"); ?>
 
-		<div class="col-md-offset-1 col-md-10">			
-			<?php include ("../inclusions/Slider.php");?>
+		<div class="container">			
+			<?php include ("../inclusions/Slider.php"); ?>
 		</div>
-	
-		<div id="Synopsis" class="col-lg-offset-1 col-lg-10">
+		
+
+		<div class="haut-2 container">
+		<div id="Synopsis">
 			<div class="list-group">
-			  <div class="list-group-item"><center><h1>L2-Connection</h1></center></div>
+			  <div class="list-group-item"><h1>L2-Connection</h1></div>
 				  <div class="list-group-item">
 				  	<blockquote>
 				  		Créé en 2010, la L2C est un collectif de rap composé de 5 MC's, Bami Bassi,
@@ -44,22 +46,18 @@
 		</div> 
 	
 			<div class="row Persos">
-				<div class=" col-md-offset-1 col-md-10">
 					<div class="col-sm-6 col-md-4">
-						<div class="panel ">
+						<div class="panel">
 							<div class="panel-heading">
-								<div class="panel-title">
-									<center><h4 class="list-group-item-heading">BAMI BASSI</h4></center>
-
-									<center>“ Certains diront que je ne suis qu’un MC parmi tant d’autres …“<br/></center>
-									<center><span>[Bami Bassi – MC parmi tant d’autres]</span></center>
+								<div class="panel-title panel-nom">
+									<h4 class="list-group-item-heading">BAMI BASSI</h4>
+									“ Certains diront que je ne suis qu’un MC parmi tant d’autres …“<br/>
+									<span>[Bami Bassi – MC parmi tant d’autres]</span>
 								</div>
 							</div>
-
 							<div class="panel-body">
-								<img src="../public/img/bami_bassi.png" height="410" class="thumbnail col-lg-12">
+								<img src="../public/img/bami_bassi.png" height="410" class="thumbnail image-same">
 							</div>
-							
 							<div class="panel-footer">
 								<p>
 									Rôle : MC, leader du groupe<br/>
@@ -74,20 +72,16 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4">
-						<div class="panel panel-info">
+						<div class="panel">
 							<div class="panel-heading">
-
-								<div class="panel-title">
-									<center><h4>KRASH</h4></center>
-									<center>“ J’ai plein de thèmes, devant le micro j’suis un tchatcheur, …“<br/></center>
-									<center><span>[Krash – Punchline Delirium]</span></center>
+								<div class="panel-title panel-nom">
+									<h4 class="list-group-item-heading">KRASH</h4><em>“ J’ai plein de thèmes, devant le micro j’suis un tchatcheur, …“</em><br/>
+									<span>[Krash – Punchline Delirium]</span>
 								</div>
 							</div>
-
 							<div class="panel-body">
-								<img src="../public/img/Krash.png" height="410" class="thumbnail col-lg-12">
+								<img src="../public/img/Krash.png" height="410" class="thumbnail image-same">
 							</div>
-							
 							<div class="panel-footer">
 								<p>
 									Rôle : MC<br/>
@@ -101,19 +95,17 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4">
-						<div class="panel panel-info">
+						<div class="panel">
 							<div class="panel-heading">
-								<div class="panel-title">
-									<center><h4>B.BROWN</h4></center>
-
-									<center>“ J’m’auto-kiffe, et j’l’affirme c’est d’la frime, certes…“<br/></center>
-									<center><span>[Breezy – Feelin’ Myself]</span></center>
+								<div class="panel-title panel-nom">
+									<h4 class="list-group-item-heading">B.BROWN</h4>
+									“ J’m’auto-kiffe, et j’l’affirme c’est d’la frime, certes…“<br/>
+									<span>[Breezy – Feelin’ Myself]</span>
 								</div>
 							</div>
 							<div class="panel-body">
-								<img src="../public/img/B_Brown.png" height="410" class="thumbnail col-lg-12">
+								<img src="../public/img/B_Brown.png" height="410" class="thumbnail image-same" />
 							</div>
-							
 							<div class="panel-footer">
 								<p>
 									Rôle : MC<br/>
@@ -125,25 +117,21 @@
 								</p>
 							</div>
 						</div>
-						</div>
 					</div>
-				</div>
 			</div>
 			<div class="row Persos">
-				<div class=" col-md-offset-1 col-md-10">
 					<div class="col-sm-6 col-md-4">
-						<div class="panel panel-info">
+						<div class="panel">
 							<div class="panel-heading">
-								<div class="panel-title">
-									<center><h4>Megaman TLM</h4></center>
-									<center>“ Pour faire du bon rap, frère, il ne suffit pas juste de rimer…“<br/></center>
-									<center><span>[Megaman TLM – Q.V.L Intro]</span></center>
+								<div class="panel-title panel-nom">
+									<h4 class="list-group-item-heading">Megaman TLM</h4>
+									“ Pour faire du bon rap, frère, il ne suffit pas juste de rimer…“<br/>
+									<span>[Megaman TLM – Q.V.L Intro]</span>
 								</div>
 							</div>	
 							<div class="panel-body">
-								<img src="../public/img/megaman.png" height="410" class="thumbnail col-lg-12"/>
+								<img src="../public/img/megaman.png" height="410" class="thumbnail image-same" />
 							</div>
-							
 							<div class="panel-footer">
 								<p>
 									Rôle : MC, chanteur<br/>
@@ -157,16 +145,16 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4">
-						<div class="panel panel-info">
+						<div class="panel">
 							<div class="panel-heading">
-								<div class="panel-title">
-									<center><h4>MELES</h4></center>
-									<center>“ Détestes-moi pour ce que je suis, ne m’aimes pas pour ce que je ne suis pas…“<br/></center>
-									<center><span>[Meles – Who I Am]</span></center>
+								<div class="panel-title panel-nom">
+									<h4 class="list-group-item-heading">MELES</h4>
+									“ Détestes-moi pour ce que je suis, ne m’aimes pas pour ce que je ne suis pas…“<br/>
+									<span>[Meles – Who I Am]</span>
 								</div>
 							</div>
 							<div class="panel-body">
-								<img src="../public/img/Meles.png" height="410" class="thumbnail col-lg-12">
+								<img src="../public/img/Meles.png" height="410" class="thumbnail image-same">
 							</div>
 							<div class="panel-footer">
 								Rôle : MC
@@ -174,22 +162,18 @@
 							</div>
 						</div>
 					</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="panel panel-info">
+					<div class="col-sm-6 col-md-4">
+					<div class="panel">
 						<div class="panel-heading">
-							<div class="panel-title">
-								<center><h4>GMB STATIC</h4></center>
-
-								<center>“ J’suis le genre de pélo qui commence un couplet en français et qui le finit en anglais…“<br/></center>
-								<center><span>[Statik – Pose ton 16]</span></center>
+							<div class="panel-title panel-nom">
+								<h4 class="list-group-item-heading">GMB STATIC</h4>
+								“ J’suis le genre de pélo qui commence un couplet en français et qui le finit en anglais…“<br/>
+								<span>[Statik – Pose ton 16]</span>
 							</div>
 						</div>
-						
-
 						<div class="panel-body">
-							<img src="../public/img/Statik.png" height="410" class="thumbnail col-lg-12">
+							<img src="../public/img/Statik.png" height="410" class="thumbnail image-same" />
 						</div>
-						
 						<div class="panel-footer">
 							<p>
 								Rôle : MC, beatmaker<br/>
@@ -201,12 +185,11 @@
 								<i class="fa fa-soundcloud fa-2x pull-left"></i> Gmb Static</a>
 							</p>
 						</div>
-						</div>
 					</div>
-				</div>
+					</div>
 			</div>
 		</div>
-		<?php include("../inclusions/Footer.php");?>
+		<?php include("../inclusions/Footer.php"); ?>
 		
 		<script src="../public/js/JQuery.min.js"></script>
 		<script src="../public/js/bootstrap.min.js"></script>
