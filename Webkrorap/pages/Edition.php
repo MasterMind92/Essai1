@@ -9,6 +9,7 @@ if(!empty($_FILES)){
 	$ext = strtolower(substr($media['name'],-3));
 	
 	$allow_ext= array("jpg","png","gif","swf","3gp","mp3","wma","aa","Ogg","wav" ,"mkv","divx","flv","avi","mp4","mpeg","mpg","mov");
+	$url= "../public/media/".$media['name'];
 
 	if(in_array($ext, $allow_ext)){
 	
@@ -19,21 +20,20 @@ if(!empty($_FILES)){
 	}
 }
 
-$url= "../public/media/".$media['name'];
+if(!empty($_FILES)){
 
-$requete= $connexion->prepare('INSERT INTO news( Titre_news, Date_news, Lieu_news,Commentaire_news, Media_news) VALUES(:Titre_news,:Date_news,:Lieu_news,:Commentaires_news,:Media_news)');
+	$requete= $connexion->prepare('INSERT INTO news( Titre_news, Date_news, Lieu_news,Commentaire_news, Media_news) VALUES(:Titre_news,:Date_news,:Lieu_news,:Commentaires_news,:Media_news)');
 
-$requete-> execute(array(
-	'Titre_news'=>$_POST['Titre'],
-	'Date_news'=>$_POST['Date'],
-	'Lieu_news'=>$_POST['Lieu'],
-	'Commentaires_news'=>$_POST['Commentaires'],
-	'Media_news'=>$url,
-));
-
-
-
-echo " voici les infos qui sont passees:".$_POST['Date']."<br/>".$_POST['Lieu']."<br/>".$_POST['Titre']."<br/>".$_POST['Commentaires']."<br/>".$url."<br/>";
+	$requete-> execute(array(
+		'Titre_news'=>$_POST['Titre'],
+		'Date_news'=>$_POST['Date'],
+		'Lieu_news'=>$_POST['Lieu'],
+		'Commentaires_news'=>$_POST['Commentaires'],
+		'Media_news'=>$url,
+	));
+}
+	
+	
 
 ?>
 
