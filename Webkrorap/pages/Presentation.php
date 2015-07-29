@@ -7,13 +7,7 @@
 		<link href="../public/css/font-awesome.min.css" rel="stylesheet">
 		<title>Presentation</title>
 	</head>
-	<body>
-		<?php include("../inclusions/Menu.php"); ?>
-
-		<div class="container">			
-			<?php include ("../inclusions/Slider.php"); ?>
-		</div>
-		
+	<body>		
 
 		<div class="haut-2 container">
 		<div id="Synopsis">
@@ -166,7 +160,7 @@
 					<div class="panel">
 						<div class="panel-heading">
 							<div class="panel-title panel-nom">
-								<h4 class="list-group-item-heading">GMB STATIC</h4>
+								<h4 class="list-group-item-heading">GMB STATIK</h4>
 								“ J’suis le genre de pélo qui commence un couplet en français et qui le finit en anglais…“<br/>
 								<span>[Statik – Pose ton 16]</span>
 							</div>

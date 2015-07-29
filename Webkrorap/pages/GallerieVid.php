@@ -1,4 +1,4 @@
-<?php 
+</div><?php 
 try{
 	$connexion= new PDO('mysql:host=localhost;dbname=L2','root','');
 }
@@ -7,7 +7,7 @@ catch ( Exception $e)
 	die( ' Erreur : ' . $e->getMessage( ) ) ;
 }
 
-$answer= $connexion-> query('SELECT * FROM Media');
+$answer= $connexion-> query('SELECT * FROM Video');
 
  ?>
 
@@ -17,7 +17,7 @@ $answer= $connexion-> query('SELECT * FROM Media');
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Gallerie Photo</title>
+		<title>Gallerie Video</title>
 
 		<!-- Bootstrap CSS -->
 		<link href="../public/css/bootstrap.min.css" rel="stylesheet">
@@ -36,30 +36,16 @@ $answer= $connexion-> query('SELECT * FROM Media');
 		<?php 
 			while($data= $answer->fetch()){
 		?>			
-		
-			<div id="affiche" class="Gallerie col-xs-6 col-sm-4 col-md-3 col-lg-2">
-				<a data-toggle="modal" href='#<?php echo $data['id_media'] ;?>'><img class="thumbnail" width="100%" src="<?php echo "../".$data['location_media'] ;?>" ></a>
-				
-				<div class="modal  fade" id="<?php echo $data['id_media'] ;?>">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-								<h4 class="modal-title">Modal title</h4>
-							</div>
-							<div class="modal-body ">
-									<img  src="<?php echo "../".$data['location_media'] ;?>">						
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Save changes</button>
-							</div>
-						</div>
-					</div>
+			<div class="media">
+				<a class="pull-left" href="#">
+					<iframe width="420" height="320" frameborder="0" src="<?php echo $data['lien_video'];?>"></iframe>
+				</a>
+				<div class="media-body">
+					<h4 class="media-heading">Media heading</h4>
+					<p>Text goes here...</p>
 				</div>
 			</div>
 		<?php 
-			
 		}
 
 		$answer->closeCursor();
