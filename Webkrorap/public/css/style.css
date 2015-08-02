@@ -259,7 +259,7 @@ body{
 	height: 100%;
 }
 
-.btn-custom {
+.btn-perso{
   background-color: hsl(221, 5%, 12%) !important;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b2d30", endColorstr="#1d1e20");

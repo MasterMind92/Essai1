@@ -1,5 +1,5 @@
 <?php 
-header("Location: test.php");
+header("Location: Administration.php");
 
 $connexion= new PDO('mysql:host=localhost;dbname=L2','root','');
 

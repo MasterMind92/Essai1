@@ -48,7 +48,7 @@ $answer= $connexion-> query('SELECT * FROM Media');
 								<h4 class="modal-title">Modal title</h4>
 							</div>
 							<div class="modal-body ">
-									<img  src="<?php echo "../".$data['location_media'] ;?>">						
+									<img  src="<?php echo $data['location_media'] ;?>">						
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -26,10 +26,13 @@ create table Projet(
 	commentaires_projet text(255),
 	url_image_projet varchar(100),
 	Constraint pk_id_projet primary key(id_projet)
-);*/
-
+);
+*/
 create table Video(
 	id_video Tinyint(10) unsigned zerofill auto_increment,
 	lien_video text(255),
+	titre_video varchar(50),
 	Constraint pk_id_video primary key(id_video)
 );
+
+
